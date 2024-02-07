@@ -1,30 +1,30 @@
-# Sales-analysis-using-azure-cloud
+# Details: Sales-analysis-using-azure-cloud
 
-# Problem statement:
- Develop a sales report and Power BI dashboard for pizza sales analysis
+# Problem Statement:<br>
+Develop a sales report and Power BI dashboard for pizza sales analysis.<br>
 
-# Business Requirement<br>
---> We have data available in SQL server and we need to move into cloud storage<br>
---> We have to build one pipeline which will transfer data and run daily<br>
---> Connect the Databricks to storage account<br>
---> BUILD one aggregate table for the reporting with all the Business related KPI<br>
---> Build dashboard using power Bl<br>
+# Business Requirements:<br>
+--> Data available in SQL Server needs to be moved into cloud storage.<br>
+--> Establish a pipeline for daily data transfer.<br>
+--> Connect Databricks to the storage account.<br>
+--> Build an aggregate table for reporting with all business-related KPIs.<br>
+--> Develop a dashboard using Power BI.<br>
 
-# Technologies Used<br>
---> Databricks <br>
+# Technologies Used:<br>
+--> Databricks<br>
 --> PySpark<br>
 --> Azure Data Factory<br>
 --> Azure Blob Storage<br>
 --> Power BI<br>
 
-# Process Steps<br>
---> Azure create storage account<br>
---> Azure create data factory<br>
---> Azure setup integration run time - azure data factory<br>
---> Azure load data from sql to storage - data pipeline<br>
---> Databricks connect to storage - pyspark<br>
---> Databricks aggregates table building - spark sql<br>
---> Create Visulizations by using Power bi<br>
+# Process Steps:<br>
+--> Create Azure storage account.<br>
+--> Set up Azure Data Factory.<br>
+--> Configure integration runtime for Azure Data Factory.<br>
+--> Load data from SQL to storage using a data pipeline in Azure.<br>
+--> Connect Databricks to storage using PySpark.<br>
+--> Build aggregate tables in Databricks using Spark SQL.<br>
+--> Create visualizations using Power BI.<br>
 
-# Result<br>
-It gives sales report of pizza it usefull to business to take quick decisions
+# Result:<br>
+The project provides a sales report for pizza, facilitating quick decision-making for businesses
